@@ -3,6 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /[Ll]ibrary/
+/[Aa]LP8310_Assets/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
