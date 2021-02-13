@@ -57,6 +57,6 @@ public class Player : MonoBehaviour
         float yOffset = yThrow * Speed * Time.deltaTime;
         float rawYPos = transform.localPosition.y + yOffset;
 
-        transform.localPosition = new Vector3(Mathf.Clamp(rawXPos, -11.5f, 11.5f), Mathf.Clamp(rawYPos, -5.1f, 5.1f), transform.localPosition.z);
+        transform.localPosition = new Vector3(Mathf.Clamp(rawXPos, -14f, 14f), Mathf.Clamp(rawYPos, -5.1f, 5.1f), transform.localPosition.z);
     }
 }
